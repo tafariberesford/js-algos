@@ -7,3 +7,8 @@ console.log(squaring)
 //     let squared = nums.map(val => val ** 2)
 //     return squared
 // }
+
+// const squared = function(val) {
+//     let square = nums.map(val => val ** 2)
+//     return square
+// }
