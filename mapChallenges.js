@@ -15,3 +15,19 @@ const squaring = nums.map(val => val ** 2)
 const squared = nums.map(function(val) {
   return val ** 2
 })
+
+
+/*Challenge 2:
+Given an array of strings, return an array where 
+the first letter of each string is capitalized
+*/
+
+const names = ["alice", "bob", "charlie", "danielle"]
+// -->        ["Alice", "Bob", "Charlie", "Danielle"]
+// Your code here
+
+const uppercase = names.map(function(name) {
+    return name[0].toUpperCase() + name.slice(1)
+})
+
+// console.log(uppercase)
