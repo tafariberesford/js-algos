@@ -31,3 +31,5 @@ const uppercase = names.map(function(name) {
 })
 
 // console.log(uppercase)
+
+const capital = names.map((name) => name[0].toUpperCase() + name.slice(1))
