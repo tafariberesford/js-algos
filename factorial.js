@@ -6,4 +6,4 @@ function extraLongFactorials(n) {
 
 }
 
-console.log(extraLongFactorials(25))
+// console.log(extraLongFactorials(25))
