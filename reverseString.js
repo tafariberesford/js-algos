@@ -39,3 +39,10 @@
 // }
 
 // console.log(reverseString("Hiking"))
+
+function reverseWrd(word) {
+  word = word.split('').reverse().join('')
+  console.log(word)
+}
+
+reverseWrd("hello")
