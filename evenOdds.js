@@ -8,4 +8,17 @@ function evenOdds(n) {
   }
 }
 
-console.log(evenOdds(1))
+// console.log(evenOdds(1))
+
+function findOdds(arr) {
+  let odds = []
+  for (let i = 0; i < arr.length; i++) {
+    if (i % 2 != 0) {
+      odds.push(i)
+    }
+  }
+  return odds
+}
+
+console.log(findOdds([1, 4, 5, 8, 9]))
+
