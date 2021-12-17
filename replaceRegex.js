@@ -8,4 +8,4 @@ function correction(string) {
   return string.replace(/1/g, "one").replace(/3/g, "four")
 }
 
-console.log(correction("I have 1. Do you have 3 or more?"))
+// console.log(correction("I have 1. Do you have 3 or more?"))
