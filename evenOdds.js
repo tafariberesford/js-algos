@@ -32,4 +32,11 @@ const even = (nums) => {
   return evens
 }
 
-console.log(even([1, 2, 3, 4, 5]))
+// console.log(even([1, 2, 3, 4, 5]))
+
+function filterEvens(arr) {
+  const evens = arr.filter(num => num % 2 == 0)
+  return evens
+}
+
+console.log(filterEvens([11, 12, 13, 15, 144]))
