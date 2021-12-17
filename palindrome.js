@@ -25,4 +25,4 @@ function checkPalindrome(word) {
   }
 }
 
-console.log(checkPalindrome("Madam"))
+// console.log(checkPalindrome("Madam"))
