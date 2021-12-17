@@ -20,5 +20,16 @@ function findOdds(arr) {
   return odds
 }
 
-console.log(findOdds([1, 4, 5, 8, 9]))
+// console.log(findOdds([1, 4, 5, 8, 9]))
 
+const even = (nums) => {
+  let evens = []
+  for (let i = 0; i < nums.length; i++) {
+    if (i % 2 == 0) {
+      evens.push(i)
+    }
+  }
+  return evens
+}
+
+console.log(even([1, 2, 3, 4, 5]))
