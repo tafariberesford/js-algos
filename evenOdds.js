@@ -39,4 +39,13 @@ function filterEvens(arr) {
   return evens
 }
 
-console.log(filterEvens([11, 12, 13, 15, 144]))
+// console.log(filterEvens([11, 12, 13, 15, 144]))
+
+//Random Filter Method
+
+// function numsLargerThan25(arr) {
+//   const nums = arr.filter(num => num > 25 && num < 50)
+//   return nums
+// }
+
+// console.log(numsLargerThan25([11, 3, 54, 26, 11, 15, 12, 24, 52]))
