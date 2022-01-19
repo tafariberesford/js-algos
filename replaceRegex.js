@@ -14,5 +14,5 @@ let nameArr = ["Janice", "Sally", "Jacob"]
 
 const updated = nameArr.map(letter => letter.replace(/a/g, "@"))
 
-console.log(updated.toString())
+// console.log(updated.toString())
 
