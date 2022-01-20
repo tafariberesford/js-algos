@@ -10,9 +10,8 @@ function correction(string) {
 
 // console.log(correction("I have 1. Do you have 3 or more?"))
 
-let nameArr = ["Janice", "Sally", "Jacob"]
+let nameArr = ["Janice", "Slly", "Jacob"]
 
 const updated = nameArr.map(letter => letter.replace(/a/g, "@"))
 
-// console.log(updated.toString())
-
+console.log(updated.toString())
