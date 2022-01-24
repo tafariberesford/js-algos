@@ -17,15 +17,15 @@
 
 // [0, 1, 3] find the missing number
 
-// function findMissingNum(arr) {
-//   let sumIfNoMissing = arr.length
-//   let actualSum = 0
+function findMissingNum(arr) {
+  let sumIfNoMissing = arr.length
+  let actualSum = 0
 
-//   for (let i = 0; i < arr.length; i++) {
-//     sumIfNoMissing += i
-//     actualSum += arr[i]
-//   }
-//   return sumIfNoMissing - actualSum
-// }
+  for (let i = 0; i < arr.length; i++) {
+    sumIfNoMissing += i
+    actualSum += arr[i]
+  }
+  return sumIfNoMissing - actualSum
+}
 
-// console.log(findMissingNum([0, 1, 3]))
+console.log(findMissingNum([0, 1, 3]))
